@@ -1,0 +1,300 @@
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+}
+.ilkyari{
+    min-height: 1024px;
+    height: 100%;
+    background: #DCE4EF;
+}
+.logo{
+    margin-left:75px;
+    margin-top: 74px !important;
+}
+.content-w{
+    margin-left: 95px;
+}
+.welcome{
+    margin-top: 132px;
+}
+.welcome span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6D6B67;
+}
+.ozet{
+    margin-top: 10px;
+}
+.login{
+    margin-left:95px;
+}
+.ozet p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B3B1AF;
+}
+.email{
+    display: grid;
+    margin-top: 115px;
+}
+.email label{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.email input{
+    margin-top: 10px;
+    width: 463px;
+    height: 45px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+}
+.email input[type=text]{
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.email input::placeholder{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.sifre{
+    margin-top:35px;
+    display:grid;
+}
+.uyari{
+    background: url("../images/img_4.png");
+    width: 17px;
+    height: 17px;
+    display:inline-block;
+}
+.sifre label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.sifre .pass{
+    margin-top:10px;
+    width: 463px;
+    height: 45px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+}
+.showpass2{
+    position: absolute;
+    width: 22px;
+    left: 1237px;
+    top: 490px;
+    border: none;
+}
+.sifre input[type=text]{
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.sifre input[type=password]{
+     padding-left: 10px;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+     color: #6D6B67;
+ }
+.sifre input::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.rememberpass{
+    display:flex;
+}
+.rememberpass input{
+    width: 17px;
+    height: 17px;
+    margin-top:14px;
+    border: 1px solid #CBCDD2;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.rememberpass span{
+    margin-left: 5px;
+    font-weight: bold;
+    margin-top:14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B3B1AF;
+}
+.rememberpass a{
+    font-weight: bold;
+    margin-left: 213px;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #FBA204;
+}
+.signin{
+    font-weight: bold;
+    margin-top: 220px;
+    background: #B3B1AF;
+    border-radius: 10px;
+    width: 463px;
+    height: 65px;
+    color:white;
+    border:none;
+}
+.signin:hover{
+    background: #EA4135;
+}
+.hesap{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 207px;
+}
+.hesap p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #565656;
+}
+.hesap a{
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FBA204;
+}
+.copy{
+    margin-left: 340px;
+    margin-top: 65px;
+}
+.copy span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B3B1AF;
+}
+.field-icon {
+    background: url("../images/img_7.png");
+    background-repeat: no-repeat;
+    float: right;
+    margin-left: 400px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+}
+@media only screen and (max-width:768px){
+    #include{
+    display:none;
+    }
+    .background{
+        display: block;
+    }
+    .ilkyari{
+        height: auto;
+        min-height:100px ;
+        background: #fff;
+    }
+    .logo{
+        margin:0;
+    }
+    .mobil{
+        display:flex;
+        justify-content: center;
+    }
+    .content-w{
+        padding: 24px;
+        margin-left:0;
+    }
+    .welcome{
+        margin-top: 80px;
+        width: 100%;
+    }
+    .login{
+        margin-top:-75px;
+        margin-left:0;
+        padding:24px;
+    }
+    .email input{
+        width: 100%;
+    }
+    .pass{
+        width: 100% !important;
+    }
+    .signin{
+        margin-top: 87px;
+        width: 100%;
+    }
+    .hesap{
+        margin-top: -5px;
+        margin-left:0;
+        padding:24px;
+        justify-content: center;
+    }
+    .hesap p{
+        font-size: 15px;
+    }
+    .rememberpass a{
+        margin-left:80px;
+    }
+    .field-icon{
+        display: none;
+    }
+    .copy{
+        display:flex;
+        justify-content: center;
+        margin-top: 55px;
+        margin-left: 0;
+    }
+    .ozet p .br{
+        display:none;
+    }
+}

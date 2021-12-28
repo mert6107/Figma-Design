@@ -1,0 +1,181 @@
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+}
+.ilkyari{
+     min-height: 1024px;
+     height: 100%;
+     background: #DCE4EF;
+ }
+
+.logo{
+    margin-left:75px;
+    margin-top: 74px !important;
+}
+/* 2.kısım */
+.firstfield{
+    margin-left:95px;
+    margin-top: 330px;
+    display: grid;
+}
+.kayit span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6D6B67;
+}
+.ozet{
+    margin-top:10px;
+}
+.ozet p{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B3B1AF;
+}
+.login{
+    margin-left: 95px;
+    margin-top:57px;
+}
+
+.numara input{
+    background:  #FAFAFA url("../images/img_12.png");
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    border: 2px solid #E3E4E7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 463px;
+    height: 45px;
+    padding-left: 60px;
+    background-position: left;
+}
+.numara input[type=text]{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.numara input::placeholder{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.sendcode{
+    margin-top:130px;
+    border:none;
+    width: 463px;
+    height: 65px;
+    background: #EA4135;
+    border-radius: 10px;
+    color:#fff;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.copy{
+    margin-left: 340px;
+    margin-top: 230px;
+}
+.copy span{
+
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B3B1AF;
+}
+@media only screen and (max-width:768px){
+    #include{
+        display:none;
+    }
+    .background{
+        display: block;
+    }
+    .ilkyari{
+        height: auto;
+        min-height:100px ;
+        background: #fff;
+    }
+    .logo{
+        margin:0;
+    }
+
+    .mobil{
+        display:flex;
+        justify-content: center;
+    }
+    .firstfield{
+        margin-top: 120px;
+        margin-left:0;
+        padding: 38px;
+    }
+    .login{
+        margin-top: -75px;
+        margin-left: 0;
+        padding: 38px;
+    }
+    .field-icon{
+        display: none;
+    }
+    .copy{
+        display:flex;
+        justify-content: center;
+        margin-top: 55px;
+        margin-left: 0;
+    }
+    .ozet p .brr{
+        display:none;
+    }
+    .anabolum{
+        padding: 38px;
+        margin-left:0;
+    }
+    .code{
+        display: flex;
+        margin-top: 0px;
+        justify-content: space-around;
+    }
+    .codestyle{
+        margin-left: 0;
+        display:none;
+    }
+    .otp{
+        margin-right: 0;
+        border: 1px solid #B3B1AF;
+    }
+    .timer{
+        margin-left:0;
+        float: right;
+    }
+    .iptal{
+        font-size: 15px;
+    }
+    .dogrula{
+        font-size:15px;
+    }
+    .numara input{
+        width: 100%;
+    }
+    .sendcode{
+        width: 100%;
+    }
+
+}

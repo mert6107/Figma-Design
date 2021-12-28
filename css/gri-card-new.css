@@ -1,0 +1,144 @@
+
+.adam{
+    margin-left:126px;
+    margin-top: 183px;
+}
+.adam2{
+    margin-top: 166px;
+    margin-left: 124px;
+
+}
+.adam3{
+    margin-left:162px;
+    margin-top: 217px;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.content2{
+    margin-top:  9px;
+    margin-left: 70px;
+}
+.content3{
+    margin-top: 69px;
+    margin-left: 70px;
+}
+
+.title span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #6D6B67;
+}
+.yazi{
+
+    margin-top: 10px;
+}
+.yazi p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #6D6B67;
+
+}
+.buton{
+    display:flex;
+    margin-left:302px;
+    margin-top: 45px;
+}
+.buton p{
+    width: 32px;
+    height: 5px;
+    margin-right: 10px;
+    background: #839CB0;
+    border-radius: 23px;
+}
+@media(max-width:1400px){
+    .adam{
+        margin-left:26px !important;
+    }
+    .adam2{
+        margin-left:40px !important;
+    }
+    .adam3{
+        margin-left:52px !important;
+    }
+    .content , .content2, .content3{
+        margin-left:30px !important;
+    }
+    .yazi p{
+        font-size: 15px;
+    }
+}
+
+/* slider */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@keyframes fade{
+    from{
+        opacity:0.4;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+
+#slider{
+    margin:0 auto;
+    width:80%;
+    overflow:hidden;
+}
+
+.slides{
+    overflow:hidden;
+    animation-name:fade;
+    animation-duration:2s;
+    display:none;
+}
+
+
+#dot{
+    display:flex;
+    position: absolute;
+    width: 117px;
+    height: 5px;
+    left: 302px;
+    top: 919px;
+
+}
+.dot{
+
+    width: 32px;
+    height: 5px;
+    margin-right: 10px;
+    background: #fff;
+    border-radius: 23px;
+}
+
+.active{
+    background:#839CB0;
+}
+
+@media (max-width:567px){
+    #slider{
+        width:100%;
+
+    }
+}
+
+#heading{
+    display:block;
+    text-align:center;
+    font-size:2em;
+    margin:10px 0px;
+
+}

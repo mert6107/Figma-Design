@@ -1,0 +1,247 @@
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+}
+.ilkyari{
+     min-height: 1024px;
+     height: 100%;
+     background: #DCE4EF;
+ }
+
+.logo{
+    margin-left:75px;
+    margin-top: 74px !important;
+}
+/* 2.kısım */
+.firstfield{
+    margin-left:95px;
+    margin-top: 330px;
+    display: grid;
+}
+.kayit span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6D6B67;
+}
+.ozet{
+    margin-top:10px;
+}
+.ozet p{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B3B1AF;
+}
+.login{
+    margin-left: 95px;
+}
+.anabolum{
+    margin-left: 95px;
+}
+.code{
+    margin-top:100px;
+}
+.otp{
+    margin-right: 41px;
+    height: 30px;
+    width: 35px;
+    border:none;
+}
+.otp:focus{
+    outline: none;
+}
+.codestyle {
+    display: flex;
+    margin-left: -13px;
+}
+.otpstyle,.otpstyle2,.otpstyle3,.otpstyle4,.otpstyle5,.otpstyle6{
+    margin-right: 38px;
+    background: #E3E4E7;
+    border-radius: 8px;
+    width: 45px;
+    height: 2px;
+}
+.otp[type=text]{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #6D6B67;
+}
+.butonlar{
+    display:flex;
+    margin-top: 130px;
+
+}
+.timer{
+    margin-top: 20px;
+    margin-left: 414px;
+}
+.timer span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.iptal{
+    width: 203px;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B2B1AF;
+    margin-right: 57px;
+}
+.dogrula{
+    width: 203px;
+    height: 65px;
+    background: #B3B1AF;
+    border-radius: 10px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color:#ffffff;
+}
+.dogrula:hover{
+    background: #EA4135;
+}
+
+.numara{
+    margin-top:20px;
+    display: flex;
+    margin-left:95px;
+}
+.numara .duzenleme{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #6D6B67;
+    margin-right: 178px;
+}
+.numara .gonderim{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FBA204;
+    text-decoration: none;
+}
+/* Copyright */
+.copy{
+    margin-left: 340px;
+    margin-top: 148px;
+}
+.copy span{
+
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B3B1AF;
+}
+@media only screen and (max-width:768px){
+    #include{
+        display:none;
+    }
+    .background{
+        display: block;
+    }
+    .ilkyari{
+        height: auto;
+        min-height:100px ;
+        background: #fff;
+    }
+    .logo{
+        margin:0;
+    }
+
+    .mobil{
+        display:flex;
+        justify-content: center;
+    }
+    .firstfield{
+        margin-top: 120px;
+        margin-left:0;
+        padding: 38px;
+    }
+    .login{
+        margin-top:-75px;
+        margin-left:0;
+        padding:24px;
+    }
+    .field-icon{
+        display: none;
+    }
+    .copy{
+        display:flex;
+        justify-content: center;
+        margin-top: 55px;
+        margin-left: 0;
+    }
+    .ozet p .brr{
+        display:none;
+    }
+    .anabolum{
+        padding: 38px;
+        margin-left:0;
+    }
+    .code{
+        display: flex;
+        margin-top: 0px;
+        justify-content: space-around;
+    }
+    .codestyle{
+    margin-left: 0;
+        display:none;
+    }
+    .otp{
+        margin-right: 0;
+        border: 1px solid #B3B1AF;
+    }
+    .timer{
+        margin-left:0;
+        float: right;
+    }
+    .iptal{
+        font-size: 15px;
+    }
+    .dogrula{
+        font-size:15px;
+
+    }
+    .numara{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 0;
+        padding:0;
+        justify-content: space-around;
+    }
+    .numara .duzenleme{
+        margin-right: 0;
+    }
+
+}

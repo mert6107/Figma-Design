@@ -1,0 +1,337 @@
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+}
+.ilkyari{
+     min-height: 1024px;
+     height: 100%;
+     background: #DCE4EF;
+ }
+.logo{
+    margin-left:75px;
+    margin-top: 74px !important;
+}
+/* 2.kısım */
+
+.firstfield{
+    margin-top:132px ;
+    margin-left: 95px;
+}
+.firstfield span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6D6B67;
+
+}
+.login{
+    margin-left:95px;
+}
+.isim{
+    margin-top: 92px;
+    display: grid;
+}
+.isim label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+
+}
+.isim input{
+    margin-top:10px;
+    width: 463px;
+    height: 45px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+}
+.isim input[type=text]{
+    padding-left:10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.isim input::placeholder{
+    padding-left:10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.email{
+    margin-top: 35px;
+    display:grid;
+}
+.email label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.email input{
+    margin-top: 10px;
+    width: 463px;
+    height: 45px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+}
+.email input[type=text]{
+     padding-left:10px;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 20px;
+     color: #6D6B67;
+ }
+.email input::placeholder{
+    padding-left:10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.sifre{
+    margin-top:35px;
+    display:grid;
+}
+.uyari{
+    background: url("../images/img_4.png");
+    width: 17px;
+    height: 17px;
+    display:inline-block;
+}
+.sifre label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.sifre .pass{
+    margin-top:10px;
+    width: 463px;
+    height: 45px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+}
+.showpass2{
+
+    position: absolute;
+    width: 22px;
+    left: 1237px;
+    top: 490px;
+    border: none;
+}
+.sifre input[type=text]{
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.sifre input[type=password]{
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.sifre input::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.field-icon {
+     background: url("../images/img_7.png");
+     background-repeat: no-repeat;
+     float: right;
+     margin-left: 400px;
+     margin-top: -25px;
+     position: relative;
+     z-index: 2;
+ }
+.sifre img{
+    margin-top: 4px;
+}
+.kvkk{
+    display:block;
+    margin-top:20px
+}
+.kvkk .kvkk-inp{
+    border: 1px solid #CBCDD2;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.kvkk a{
+    margin-left: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #FBA204;
+}
+.kvkk span{
+    margin-left: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6D6B67;
+}
+.signin{
+    font-weight: bold;
+    margin-top: 143px;
+    background: #B3B1AF;
+    border-radius: 10px;
+    width: 463px;
+    height: 65px;
+    color:white;
+    border:none;
+}
+.signin:hover{
+    background: #EA4135;
+}
+.hesap{
+    margin-top: 20px;
+    margin-left:176px;
+    display:flex;
+}
+.hesap p{
+    margin-left: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #565656;
+}
+.hesap a{
+    text-decoration: none;
+    margin-left: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color:#FBA204;
+}
+.copy{
+    margin-left: 340px;
+    margin-top: 65px;
+}
+.copy span{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B3B1AF;
+}
+@media only screen and (max-width:768px){
+    #include{
+        display:none;
+    }
+    .background{
+        display: block;
+    }
+    .ilkyari{
+        height: auto;
+        min-height:100px ;
+        background: #fff;
+    }
+    .logo{
+        margin:0;
+    }
+    .content-w {
+        margin-top: 97px;
+        margin-left:0;
+        padding: 38px;
+    }
+    .mobil{
+        display:flex;
+        justify-content: center;
+    }
+    .firstfield{
+        margin-top: 120px;
+        margin-left:0;
+        padding: 38px;
+    }
+    .login{
+        margin-top: -75px;
+        margin-left: 0;
+        padding: 38px;
+    }
+    .email input{
+        width: 100%;
+    }
+    .sifresifirla{
+        width: 100%;
+    }
+    .geridon {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .signin{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .sifre .pass{
+        width: 100%;
+    }
+    .field-icon{
+        display: none;
+    }
+    .giris {
+        margin-left: 0;
+        text-align: center;
+    }
+    .isim input{
+        width: 100%;
+    }
+    .hesap{
+        margin-left: 0;
+        display: block;
+        text-align: center;
+    }
+    .copy{
+        display:flex;
+        justify-content: center;
+        margin-top: 52px;
+        margin-left: 0;
+    }
+
+}

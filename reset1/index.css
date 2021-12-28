@@ -1,0 +1,185 @@
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+}
+.ilkyari{
+     min-height: 1024px;
+     height: 100%;
+     background: #DCE4EF;
+ }
+
+.logo{
+    margin-left:75px;
+    margin-top: 74px !important;
+}
+/* 2.kısım */
+.firstfield{
+    margin-left:95px;
+    margin-top: 345px;
+    display: grid;
+}
+
+.sifreunuttum span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 30px;
+    color: #6D6B67;
+}
+.sifirlama{
+    margin-top: 10px;
+}
+.sifirlama{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B3B1AF;
+}
+.login{
+    margin-left: 95px;
+}
+.email{
+    margin-top: 42px;
+    display:grid;
+}
+.email label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.email input{
+    margin-top: 10px;
+    width: 463px;
+    height: 45px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+}
+.email input[type=text]{
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6B67;
+}
+.email input::placeholder {
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+.sifresifirla{
+    width: 463px;
+    height: 65px;
+    margin-top:100px;
+    background: #B3B1AF;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border:none;
+}
+.sifresifirla:hover{
+    background-color: #EA4135;
+}
+.geridon{
+    margin-top: 20px;
+    margin-left: 206px;
+}
+.geridon a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FBA204;
+    text-decoration: none;
+}
+.geridon span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B1AF;
+}
+
+/* Copyright */
+.copy{
+    margin-left: 340px;
+    margin-top: 190px;
+}
+.copy span{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B3B1AF;
+}
+@media only screen and (max-width:768px){
+    #include{
+        display:none;
+    }
+    .background{
+        display: block;
+    }
+    .ilkyari{
+        height: auto;
+        min-height:100px ;
+        background: #fff;
+    }
+    .logo{
+        margin:0;
+    }
+
+    .mobil{
+        display:flex;
+        justify-content: center;
+    }
+    .firstfield{
+        margin-top: 120px;
+        margin-left:0;
+        padding: 38px;
+    }
+    .login{
+        margin-top: -75px;
+        margin-left: 0;
+        padding: 38px;
+    }
+    .email input{
+        width: 100%;
+    }
+    .sifresifirla{
+        width: 100%;
+    }
+    .geridon {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .copy{
+        display:flex;
+        justify-content: center;
+        margin-top: 52px;
+        margin-left: 0;
+    }
+}
